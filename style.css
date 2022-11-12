@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: auto;
+    color: white;
+    /* source for the picture www.unsplash.com */
+    background-image: url(/images/ivana-cajina-asuyh-_ZX54-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+main {
+    margin-top: 10px;
+}
+
+main ul {
+    margin-left: 1em;
+}
+/* gives spacing between the order list on hobbies page */
+.container li {
+    margin: 2em 0em;
+}
+
+.main-pic {
+    height: 600px;
+    width: 800px;
+    object-fit: contain;
+    opacity: 0.75;
+    border-radius: 10%;
+}
+
+ .top-nav ul {
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+ }
+
+ .container {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+ }
+
+ header li , a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    font-weight: 500;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: #999;
+}
+
+header a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 0px;
+}
+
+#footer {
+    display: flex;
+    gap: 10px;
+}
+
+.about-main  {
+    margin-top: auto;
+    /* text-align: center; */
+}
+
+.about-main h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+h1 a:hover {
+    text-decoration: none;
+    color: white;
+}
+/* Pickture */
+.plan-pic,.holidays,.setu {
+    height: 200px;
+    width: 80vh;
+    opacity: 0.8;
+    object-fit: contain;
+}
+
+.school {
+    height: auto;
+    width: 300px;
+}
+/* containers for about and hobbies main content */
+
+.div-1,.div-2,.div-3,.div-4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Hobbies pictures */
+
+.odin,.kick {
+    height: auto;
+    width: 300px;
+    border-radius: 30%;
+    transition: 1.1s;
+}
+
+.legend {
+    margin-top: 10px;
+    height: 300px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.odin:hover,.kick:hover,.legend:hover {
+    transform: scale(1.1);
+}
+
+blockquote {
+    width: 500px;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: auto;
+}
+
+#three {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+/* style for the academic.html */
+
+.academic {
+    width: 30rem;
+    border-collapse: collapse;
+    float: left;
+}
+
+th,td {
+    border: 1px solid #fff;
+    padding: 0.5em;
+}
+
+thead {
+    background-color:rgba(16, 77, 156, 0.233);
+}
+
+tbody td {
+    text-align: center;
+}
+
+tbody tr td:first-child {
+    font-weight: 500;
+}
+
+tbody tr:nth-of-type(even)  {
+    font-style: italic;
+}
+
+tbody tr:hover {
+    background-color: #999;
+}
+
+caption {
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+article {
+    margin-left: 32rem;
+}
+
+article h2 {
+    margin-bottom: 0.5rem;
+}
+
+article p {
+    margin-bottom: 3em;
+}
+
+.desk {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    opacity: .8;
+    transition: 0.5s;
+}
+
+.desk:hover {
+    transform: scale(0.8);
+}
+
+aside {
+    margin: 1em 0;
+}
+
+
+
+
